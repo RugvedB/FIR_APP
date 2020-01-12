@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_with_background"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewOldeName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:text="TextView"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large" />-->
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textColor="#7FDA69"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:text="Green -> Accepted" />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        android:hint="Enter location"
+        android:inputType="textPersonName"
+        android:text="Red -> Rejected" />
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textColor="#800080"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:text="Violet -> Returned" />
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textColor="#1B79A0"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:text="Blue -> Pending" />
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="Press once : Update/Delete Box" />
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="Long Press once : Generates Report" />
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:text="OK" />
+</LinearLayout>

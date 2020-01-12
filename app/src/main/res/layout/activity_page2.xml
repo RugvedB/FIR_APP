@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/bgcolorall"
+    tools:context=".Page2">
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIR PAGE"
+        android:textAllCaps="true"
+        android:textColor="@color/text_color"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:id="@+id/location1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:ems="10"
+        android:hint="Enter Location here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/singleFir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your fir here"
+        android:inputType="textPersonName" />
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:text="Choose"
+            android:background="@drawable/border"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btnUpload"-->
+<!--            android:text="Upload"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/ImageActivity"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="30dp"-->
+<!--        android:text="ImageActivity" />-->
+
+    <Button
+        android:id="@+id/fileFir"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="File Fir" />
+
+
+<!--  #3F51B5///  just trying glide image stuff here...comment below code later-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:id="@+id/tryimg"/>
+
+</LinearLayout>

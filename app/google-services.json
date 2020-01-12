@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "389365196093",
+    "firebase_url": "https://letstry-cd943.firebaseio.com",
+    "project_id": "letstry-cd943",
+    "storage_bucket": "letstry-cd943.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389365196093:android:dd95eb75bde2bf9b67d154",
+        "android_client_info": {
+          "package_name": "com.example.letstry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389365196093-v11rpbq7qlfqv9ulau8rcu81emc3l054.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letstry",
+            "certificate_hash": "cbd74763c9debcd8027b701b5501787ba0ce64d3"
+          }
+        },
+        {
+          "client_id": "389365196093-e3cs0kit7jnss5rgefkvcpkq9653c2q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMoSr5X5MQar5JF-I4P2fVYZTl6bA4zeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389365196093-e3cs0kit7jnss5rgefkvcpkq9653c2q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

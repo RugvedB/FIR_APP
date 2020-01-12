@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/border_with_background"
+    android:layout_height="match_parent">
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/abc_vector_test"-->
+<!--        android:id="@+id/imgView"/>-->
+
+    <TextView
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:text="TextView" />
+
+    <TextView
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#FFFFFF"
+        android:text="TextView" />
+
+    <EditText
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/editTextStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:text="buttonUpdate" />
+
+    <Button
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:text="buttonDelete" />
+</LinearLayout>
